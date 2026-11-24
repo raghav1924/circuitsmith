@@ -1,0 +1,7 @@
+{
+  "serviceName": "tier-2-service",
+  "failureRateThreshold": 47,
+  "slowCallDurationThresholdMs": 850,
+  "minimumNumberOfCalls": 12,
+  "maxConcurrentCalls": 17
+}
