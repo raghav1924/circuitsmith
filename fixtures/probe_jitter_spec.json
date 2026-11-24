@@ -1,0 +1,6 @@
+{
+  "feature": "jittered-half-open-probes",
+  "baseDurationMs": 5000,
+  "maxJitterMs": 750,
+  "status": "verified"
+}
