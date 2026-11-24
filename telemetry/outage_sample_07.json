@@ -1,0 +1,8 @@
+{
+  "trial": 7,
+  "timestamp": 17324240007,
+  "upstreamFailureRate": 0.9,
+  "survivingWithBreakers": 80.0,
+  "survivingWithout": 40.0,
+  "fastFailLatencyMs": 1
+}
