@@ -1,0 +1,3 @@
+requests,protected,surviving_percent,avg_latency_ms
+110,false,40,1450
+110,true,80,150
