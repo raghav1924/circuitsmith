@@ -1,0 +1,33 @@
+{
+  "name": "circuitsmith",
+  "version": "1.0.0",
+  "description": "Developer-First Distributed Circuit Breaker & Bulkhead Simulator, Cascading Failure Linter, Half-Open State Machine & Bento Grid Studio",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "circuitsmith": "bin/circuitsmith.js"
+  },
+  "scripts": {
+    "build": "node /Users/jatinsharma/.local/bin/lib/node_modules/typescript/bin/tsc",
+    "test": "npm run build && node --test dist/tests/*.test.js",
+    "start": "node dist/cli.js studio",
+    "proxy": "node dist/cli.js proxy"
+  },
+  "keywords": [
+    "circuit-breaker",
+    "bulkhead",
+    "resilience",
+    "cascading-failure",
+    "microservices",
+    "fault-tolerance",
+    "distributed-systems",
+    "bento-grid",
+    "typescript"
+  ],
+  "author": "Jatin Sharma <raghavjatin245@gmail.com> (https://jatinsh.netlify.app/)",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
